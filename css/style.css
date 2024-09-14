@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+.rubik-doodle-shadow-regular {
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gochi-hand-regular {
+    font-family: "Gochi Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/*encabezado*/
+
+.header {
+    background-color: #6451A6;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle {
+    font-family: "Rubik Doodle Shadow", system-ui;
+    color: rgb(248, 197, 38);
+    text-align: center;
+}
+
+.redes {
+    background-color: #6451A6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bi {
+    margin-top: 20px;
+    margin: 20px;
+}
+
+.botones {
+    background-color: #6451A6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    font-family: "Gochi Hand", cursive;
+}
+
+.textobo {
+    text-decoration: none;
+    color: rgb(248, 197, 38);
+}
+
+.botonesdos {
+    background-color: #6451A6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+/*brief*/
+
+.spot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-top: 20px;
+}
+
+/*presentaciones*/
+
+.presentacion,
+.presentaciondos {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text,
+.textdos,
+.text-start {
+    text-align: justify;
+}
+
+/*formulario*/
+
+.formulario {
+    background-color: #6451A6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: 100%;
+}
+
+.form-label {
+    margin: 3px;
+}
+
+.btn {
+    margin-block-end: 15px;
+}
+
+/*index fotografia*/
+
+.fotografia,
+.diseno {
+    height: 200px;
+}
+
+.disenos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotografias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabeza {
+    height: 120px;
+    background-color: #6451A6;
+}
+
+.pie {
+    background-color: #6451A6;
+    display: flex;
+    justify-content: center;
+}
+
+.contenido {
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrusel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: #6351a680;
+}
